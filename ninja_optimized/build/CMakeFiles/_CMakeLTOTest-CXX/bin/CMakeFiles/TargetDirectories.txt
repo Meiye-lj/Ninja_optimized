@@ -1,0 +1,4 @@
+/home/enovoleekira/function_test/ninja-optimized/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/home/enovoleekira/function_test/ninja-optimized/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/home/enovoleekira/function_test/ninja-optimized/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/home/enovoleekira/function_test/ninja-optimized/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir

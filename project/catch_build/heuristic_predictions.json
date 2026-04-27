@@ -1,0 +1,912 @@
+{
+  "method": "type_aware_heuristic",
+  "medians_by_type": {},
+  "predictions": [
+    {
+      "primary_output": "CMakeFiles/package.util",
+      "task_type": "io",
+      "observed_time_ms": null,
+      "predicted_time_ms": 63.14
+    },
+    {
+      "primary_output": "package",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "CMakeFiles/package_source.util",
+      "task_type": "io",
+      "observed_time_ms": null,
+      "predicted_time_ms": 40.0
+    },
+    {
+      "primary_output": "package_source",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "CMakeFiles/edit_cache.util",
+      "task_type": "custom",
+      "observed_time_ms": null,
+      "predicted_time_ms": 70.0
+    },
+    {
+      "primary_output": "edit_cache",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "CMakeFiles/rebuild_cache.util",
+      "task_type": "custom",
+      "observed_time_ms": null,
+      "predicted_time_ms": 70.0
+    },
+    {
+      "primary_output": "rebuild_cache",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "list_install_components",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "CMakeFiles/install.util",
+      "task_type": "custom",
+      "observed_time_ms": null,
+      "predicted_time_ms": 70.0
+    },
+    {
+      "primary_output": "install",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "CMakeFiles/install/local.util",
+      "task_type": "custom",
+      "observed_time_ms": null,
+      "predicted_time_ms": 70.0
+    },
+    {
+      "primary_output": "install/local",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "CMakeFiles/install/strip.util",
+      "task_type": "custom",
+      "observed_time_ms": null,
+      "predicted_time_ms": 70.0
+    },
+    {
+      "primary_output": "install/strip",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "cmake_object_order_depends_target_Catch2",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/benchmark/catch_chronometer.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 101.455
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_analyse.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 181.611
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 116.459
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 133.897
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 235.467
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 113.091
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 128.334
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 137.994
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_throw.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 129.696
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 149.298
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 138.531
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 214.166
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 258.25
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 176.529
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 129.381
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 226.476
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_json.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 205.68
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 220.86
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 198.388
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 138.71
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 205.475
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 117.781
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 211.33
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 203.729
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 215.266
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 121.59
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 93.343
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 94.17
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 164.996
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 94.049
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 156.147
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 94.104
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 93.447
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 151.128
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 168.489
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 211.669
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 121.367
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 191.406
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 163.358
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 236.654
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 132.495
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 207.542
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 192.941
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 132.495
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 227.625
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 141.398
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 123.421
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 135.405
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 170.402
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 137.155
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 231.583
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 225.598
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 219.459
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 123.233
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 145.985
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 181.955
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 128.71
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 137.854
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_info.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 163.606
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 114.587
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 178.904
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 198.367
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 140.742
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 148.348
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 203.837
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwriter.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 185.869
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 140.348
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 136.366
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 192.709
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 116.898
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 211.299
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 163.263
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 144.079
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 149.223
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 157.302
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 165.832
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 195.497
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 160.734
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 243.45
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 162.624
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 140.596
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 111.612
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 138.023
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 126.646
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 185.449
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 158.46
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 159.613
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 153.021
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 199.676
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 203.847
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 142.857
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 164.515
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 205.89
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 210.474
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 137.538
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 159.547
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 209.913
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 129.387
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 133.241
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 122.795
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 233.074
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 123.256
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 122.764
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 170.727
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 148.877
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 129.968
+    },
+    {
+      "primary_output": "src/libCatch2.a",
+      "task_type": "link",
+      "observed_time_ms": null,
+      "predicted_time_ms": 302.816
+    },
+    {
+      "primary_output": "cmake_object_order_depends_target_Catch2WithMain",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o",
+      "task_type": "compile",
+      "observed_time_ms": null,
+      "predicted_time_ms": 143.785
+    },
+    {
+      "primary_output": "src/libCatch2Main.a",
+      "task_type": "link",
+      "observed_time_ms": null,
+      "predicted_time_ms": 132.733
+    },
+    {
+      "primary_output": "src/CMakeFiles/package.util",
+      "task_type": "io",
+      "observed_time_ms": null,
+      "predicted_time_ms": 63.14
+    },
+    {
+      "primary_output": "src/package",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "src/CMakeFiles/package_source.util",
+      "task_type": "io",
+      "observed_time_ms": null,
+      "predicted_time_ms": 40.0
+    },
+    {
+      "primary_output": "src/package_source",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "src/CMakeFiles/edit_cache.util",
+      "task_type": "custom",
+      "observed_time_ms": null,
+      "predicted_time_ms": 70.0
+    },
+    {
+      "primary_output": "src/edit_cache",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "src/CMakeFiles/rebuild_cache.util",
+      "task_type": "custom",
+      "observed_time_ms": null,
+      "predicted_time_ms": 70.0
+    },
+    {
+      "primary_output": "src/rebuild_cache",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "src/list_install_components",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "src/CMakeFiles/install.util",
+      "task_type": "custom",
+      "observed_time_ms": null,
+      "predicted_time_ms": 70.0
+    },
+    {
+      "primary_output": "src/install",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "src/CMakeFiles/install/local.util",
+      "task_type": "custom",
+      "observed_time_ms": null,
+      "predicted_time_ms": 70.0
+    },
+    {
+      "primary_output": "src/install/local",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "src/CMakeFiles/install/strip.util",
+      "task_type": "custom",
+      "observed_time_ms": null,
+      "predicted_time_ms": 70.0
+    },
+    {
+      "primary_output": "src/install/strip",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "Catch2",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "Catch2WithMain",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "libCatch2.a",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "libCatch2Main.a",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "all",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "src/all",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "build.ninja",
+      "task_type": "regen",
+      "observed_time_ms": null,
+      "predicted_time_ms": 70.0
+    },
+    {
+      "primary_output": "/home/lyu/BuildAC/Ninja_optimized/project/Catch2/CMake/Catch2Config.cmake.in",
+      "task_type": "phony",
+      "observed_time_ms": null,
+      "predicted_time_ms": 0.0
+    },
+    {
+      "primary_output": "clean",
+      "task_type": "custom",
+      "observed_time_ms": null,
+      "predicted_time_ms": 70.0
+    },
+    {
+      "primary_output": "help",
+      "task_type": "custom",
+      "observed_time_ms": null,
+      "predicted_time_ms": 70.0
+    }
+  ]
+}

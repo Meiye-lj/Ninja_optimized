@@ -5,6 +5,7 @@ import argparse
 import json
 import pathlib
 import time
+import os
 from typing import Dict, Any, List
 
 from openai import OpenAI
@@ -13,15 +14,15 @@ CONFIG = {
     "providers": [
         {
             "name": "openai",
-            "api_key": "",
+            "api_key": os.getenv("OPENAI_API_KEY", ""),
             "base_url": None,
             "model": "gpt-5",
         },
         {
             "name": "deepseek",
-            "api_key": "",
+            "api_key": os.getenv("DEEPSEEK_API_KEY", ""),
             "base_url": "https://api.deepseek.com",
-            "model": "deepseek-reasoner",   #or deepseek-reasoner
+            "model": "deepseek-reasoner",
         },
     ],
     "temperature": 0,

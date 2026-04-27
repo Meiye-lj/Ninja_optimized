@@ -1,0 +1,38 @@
+[
+  {
+    "variant": "baseline",
+    "jobs": 4,
+    "returncode": 1,
+    "wall_time_sec": 0.063,
+    "edge_count": 0,
+    "longest_edges": [],
+    "stdout_tail": "ninja: Entering directory `/workspace/Ninja_optimized/project/catch_build'\n[0/1] Re-running CMake...\nCMake Error: The source directory \"/home/lyu/BuildAC/Ninja_optimized/project/Catch2\" does not appear to contain CMakeLists.txt.\nSpecify --help for usage, or press the help button on the CMake GUI.\nFAILED: [code=1] build.ninja \n/usr/bin/cmake --regenerate-during-build -S/home/lyu/BuildAC/Ninja_optimized/project/Catch2 -B/home/lyu/BuildAC/Ninja_optimized/project/catch_build\nninja: error: rebuilding 'build.ninja': subcommand failed"
+  },
+  {
+    "variant": "baseline",
+    "jobs": 8,
+    "returncode": 1,
+    "wall_time_sec": 0.056,
+    "edge_count": 0,
+    "longest_edges": [],
+    "stdout_tail": "ninja: Entering directory `/workspace/Ninja_optimized/project/catch_build'\n[0/1] Re-running CMake...\nCMake Error: The source directory \"/home/lyu/BuildAC/Ninja_optimized/project/Catch2\" does not appear to contain CMakeLists.txt.\nSpecify --help for usage, or press the help button on the CMake GUI.\nFAILED: [code=1] build.ninja \n/usr/bin/cmake --regenerate-during-build -S/home/lyu/BuildAC/Ninja_optimized/project/Catch2 -B/home/lyu/BuildAC/Ninja_optimized/project/catch_build\nninja: error: rebuilding 'build.ninja': subcommand failed"
+  },
+  {
+    "variant": "patched",
+    "jobs": 4,
+    "returncode": 1,
+    "wall_time_sec": 0.058,
+    "edge_count": 0,
+    "longest_edges": [],
+    "stdout_tail": "ninja: Entering directory `/workspace/Ninja_optimized/project/catch_build'\n[0/1] Re-running CMake...\nCMake Error: The source directory \"/home/lyu/BuildAC/Ninja_optimized/project/Catch2\" does not appear to contain CMakeLists.txt.\nSpecify --help for usage, or press the help button on the CMake GUI.\nFAILED: [code=1] build.ninja \n/usr/bin/cmake --regenerate-during-build -S/home/lyu/BuildAC/Ninja_optimized/project/Catch2 -B/home/lyu/BuildAC/Ninja_optimized/project/catch_build\nninja: error: rebuilding 'build.ninja': subcommand failed"
+  },
+  {
+    "variant": "patched",
+    "jobs": 8,
+    "returncode": 1,
+    "wall_time_sec": 0.06,
+    "edge_count": 0,
+    "longest_edges": [],
+    "stdout_tail": "ninja: Entering directory `/workspace/Ninja_optimized/project/catch_build'\n[0/1] Re-running CMake...\nCMake Error: The source directory \"/home/lyu/BuildAC/Ninja_optimized/project/Catch2\" does not appear to contain CMakeLists.txt.\nSpecify --help for usage, or press the help button on the CMake GUI.\nFAILED: [code=1] build.ninja \n/usr/bin/cmake --regenerate-during-build -S/home/lyu/BuildAC/Ninja_optimized/project/Catch2 -B/home/lyu/BuildAC/Ninja_optimized/project/catch_build\nninja: error: rebuilding 'build.ninja': subcommand failed"
+  }
+]

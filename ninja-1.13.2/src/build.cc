@@ -15,6 +15,7 @@
 #include "build.h"
 
 #include <assert.h>
+#include <ctype.h>
 #include <errno.h>
 #include <stdint.h>
 #include <stdio.h>
@@ -465,10 +466,46 @@ void Plan::UnmarkDependents(const Node* node, set<Node*>* dependents) {
 
 namespace {
 
-// Heuristic for edge priority weighting.
-// Phony edges are free (0 cost), all other edges are weighted equally.
-int64_t EdgeWeightHeuristic(Edge *edge) {
-  return edge->is_phony() ? 0 : 1;
+bool ContainsToken(const string& haystack, const char* needle) {
+  return haystack.find(needle) != string::npos;
+}
+
+string ToLowerCopy(string value) {
+  for (char& c : value)
+    c = static_cast<char>(tolower(static_cast<unsigned char>(c)));
+  return value;
+}
+
+// Estimated edge execution cost for weighted critical-path scheduling.
+// Phony edges are free (0), while real command edges use a lightweight rule and
+// command-based heuristic:
+//   compile ~= 2, archive ~= 4, link ~= 8, generic command ~= 3.
+// This keeps scheduling deterministic and independent from output-name
+// substrings.
+int64_t EstimatedEdgeCost(Edge* edge) {
+  if (edge->is_phony())
+    return 0;
+
+  const string rule_name = ToLowerCopy(edge->rule().name());
+  if (ContainsToken(rule_name, "link"))
+    return 8;
+  if (ContainsToken(rule_name, "ar") || ContainsToken(rule_name, "archive"))
+    return 4;
+  if (ContainsToken(rule_name, "cc") || ContainsToken(rule_name, "cxx") ||
+      ContainsToken(rule_name, "asm") || ContainsToken(rule_name, "objc")) {
+    return 2;
+  }
+
+  const string command = ToLowerCopy(edge->EvaluateCommand(/*incl_rsp_file=*/false));
+  if (ContainsToken(command, " -c "))
+    return 2;
+  if (ContainsToken(command, " ar "))
+    return 4;
+  if (ContainsToken(command, " -shared ") || ContainsToken(command, " -o ") ||
+      ContainsToken(command, " ld ")) {
+    return 8;
+  }
+  return 3;
 }
 
 }  // namespace
@@ -535,9 +572,9 @@ void Plan::ComputeCriticalPath() {
 
   const auto& sorted_edges = topo_sort.result();
 
-  // First, reset all weights to 1.
+  // First, set each edge's own estimated execution cost.
   for (Edge* edge : sorted_edges)
-    edge->set_critical_path_weight(EdgeWeightHeuristic(edge));
+    edge->set_critical_path_weight(EstimatedEdgeCost(edge));
 
   // Second propagate / increment weights from
   // children to parents. Scan the list
@@ -553,7 +590,7 @@ void Plan::ComputeCriticalPath() {
         continue;
 
       int64_t producer_weight = producer->critical_path_weight();
-      int64_t candidate_weight = edge_weight + EdgeWeightHeuristic(producer);
+      int64_t candidate_weight = edge_weight + EstimatedEdgeCost(producer);
       if (candidate_weight > producer_weight)
         producer->set_critical_path_weight(candidate_weight);
     }

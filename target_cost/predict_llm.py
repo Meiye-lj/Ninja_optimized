@@ -5,10 +5,10 @@ import argparse
 import json
 import pathlib
 import time
-import os
 from typing import Dict, Any, List
 
 from openai import OpenAI
+import os
 
 CONFIG = {
     "providers": [
